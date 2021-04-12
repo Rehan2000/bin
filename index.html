@@ -24,7 +24,6 @@
 
 <script>
 $(document).ready(function(){
- $('#load_data').click(function(){
   $.ajax({
    url:"employee.csv",
    dataType:"text",
@@ -53,7 +52,7 @@ $(document).ready(function(){
     $('#employee_table').html(table_data);
    }
   });
- });
+
 
 });
 </script>
